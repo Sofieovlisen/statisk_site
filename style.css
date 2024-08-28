@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+
+img{display: block;
+max-width: 100%;
+height: auto;}
+
+header{display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+a{text-decoration: none;}
+
+.kategori{display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.kategori a{background-color:rgb(224, 222, 222);
+text-decoration: none;
+padding: 2em;
+border-radius: 5px;
+color:black;
+}
+
+.produktliste{display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 2em;
+}
+
+.kobknap{display: block;
+background-color: azure;
+padding-left:40% ;
+padding-top: 1em;
+padding-bottom: 1em;
+border-radius: 5px;}
